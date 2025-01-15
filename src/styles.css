@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.card {
+  border-radius: 15px;
+
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.6rem;
+  color: #f8f9fa;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #cfcfcf;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.me-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+div .primera-card {
+  background-color: #4569ff;
+
+}
+
+div .segunda-card {
+  background-color: #9963f8;
+
+}
+
+div .tercera-card {
+  background-color: #f3b550;
+
+}
+
+div .tercera-card, .segunda-card, .primera-card {
+  height: 500px;
+}
+ul {
+  text-align: left;
+}
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}

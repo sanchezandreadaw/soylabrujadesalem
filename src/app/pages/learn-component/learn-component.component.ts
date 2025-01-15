@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-learn-component',
+  selector: 'learn-page',
   standalone: true,
   imports: [],
   templateUrl: './learn-component.component.html',
   styles: ``
 })
-export class LearnComponentComponent {
+export class LearnComponent {
 
 }
