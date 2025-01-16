@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from "../footer-component/footer-component.component";
+import { HeaderComponent } from '../header-component/header-component.component';
 
 @Component({
   selector: 'app-tarifas',
