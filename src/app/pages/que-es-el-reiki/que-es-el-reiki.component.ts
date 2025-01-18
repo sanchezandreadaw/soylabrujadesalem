@@ -5,7 +5,7 @@ import { HelperViewComponent } from "../helper-view/helper-view.component";
 @Component({
   selector: 'app-que-es-el-reiki',
   standalone: true,
-  imports: [FooterComponent, HelperViewComponent],
+  imports: [FooterComponent],
   templateUrl: './que-es-el-reiki.component.html',
   styleUrl: './que-es-el-reiki.component.css'
 })

@@ -9,6 +9,7 @@ body {
   color: #bb86fc;
 }
 
+
 .navbar-nav .nav-link {
   color: #e0e0e0;
   font-size: 1.1rem;
@@ -26,6 +27,11 @@ body {
 .navbar-nav {
   margin-left: auto;
 }
+
+.nav-item:hover{
+  background-color: #c89dfd;
+}
+
 
 .bg-dark {
   background-color: #121212 !important;
@@ -173,7 +179,6 @@ footer .text-center p {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #bb86fc;
 }
 
 .proceso-reiki .text-secondary {
@@ -190,10 +195,16 @@ footer .text-center p {
 
 /* Resaltar el fondo con un suave morado */
 .proceso-reiki .col-sm:hover {
-  background-color: #bb86fc;
+  background-color: #c8aaee;
   color: black;
 }
+
 
 .me-img:hover{
   width: 70%;
 }
+.gato-img {
+  width: 50px;
+  padding: 3px;
+}
+
