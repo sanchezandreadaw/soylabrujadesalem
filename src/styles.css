@@ -1,21 +1,200 @@
 body {
   background-color: #121212;
   color: #e0e0e0;
-
-}
-img:hover{
-  opacity: 70%;
 }
 
-.separated-img {
-  width: 350px;
-  margin-right: 70px; /* Separa las imágenes */
+
+/*Estilos del menú*/
+/* Estilo del menú */
+.navbar-dark .navbar-brand {
+  color: #bb86fc; /* Color de acento */
 }
 
-.separated-img:last-child {
-  margin-right: 0; /* Elimina el margen en la última imagen */
+.navbar-nav .nav-link {
+  color: #e0e0e0; /* Color de los enlaces */
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
-.separated-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+.navbar-nav .nav-link:hover {
+  color: #03dac5; /* Color al pasar el mouse */
+}
+
+.navbar-toggler-icon {
+  background-color: #bb86fc; /* Cambia el color del ícono del menú */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.bg-dark {
+  background-color: #121212 !important; /* Asegura que el fondo sea oscuro */
+}
+
+
+/*Learn-component*/
+
+.text-accent {
+  color: #bb86fc; /* Color de acento */
+}
+
+.text-secondary {
+  color: #03dac5; /* Color secundario */
+}
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.me-img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary-custom {
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+.quote blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #03dac5;
+  margin: 0;
+}
+
+.cta-banner {
+  background-color: #1e1e1e;
+  color: #bb86fc;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.cta-banner h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cta-banner p {
+  font-size: 1.2rem;
+}
+
+.cta-banner a {
+  background-color: #bb86fc;
+  color: #121212;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-banner a:hover {
+  background-color: #3700b3;
+}
+
+/* Estilo del footer */
+footer {
+  background-color: #121212; /* Fondo oscuro para el footer */
+  color: #e0e0e0; /* Color de texto claro */
+}
+
+footer h5 {
+  color: #bb86fc; /* Color de los encabezados (acento) */
+}
+
+footer p {
+  font-size: 0.95rem;
+}
+
+footer .list-unstyled li a {
+  color: #e0e0e0; /* Color de los enlaces */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer .list-unstyled li a:hover {
+  color: #03dac5; /* Color al pasar el mouse */
+}
+
+footer i {
+  color: #bb86fc; /* Color de los íconos */
+}
+
+footer i:hover {
+  color: #03dac5; /* Color de los íconos al pasar el mouse */
+}
+
+footer .text-center p {
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+/* Estilos para la sección "Proceso de la Sesión de Reiki" */
+.proceso-reiki {
+  color: #e0e0e0;             /* Texto claro */
+  padding: 5rem 0;
+}
+
+.proceso-reiki h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #bb86fc; /* Color morado para el título */
+}
+
+.proceso-reiki p {
+  font-size: 1.1rem;
+  color: #e0e0e0;  /* Texto claro */
+}
+
+.proceso-reiki .row {
+  margin-top: 2rem;
+}
+
+.proceso-reiki .col-sm-4 {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+}
+
+.proceso-reiki h5 {
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #bb86fc; /* Morado */
+}
+
+.proceso-reiki .text-secondary {
+  color: #e0e0e0;  /* Texto claro */
+}
+
+.proceso-reiki .row .col-sm p {
+  color: #cfcfcf; /* Texto claro para la descripción */
+}
+
+.proceso-reiki .col-sm {
+  background-color: #1e1e1e;
+}
+
+/* Resaltar el fondo con un suave morado */
+.proceso-reiki .col-sm:hover {
+  background-color: #bb86fc;  /* Color morado suave al hacer hover */
+  color: black;                /* Texto blanco al hacer hover */
+}
+
+.me-img:hover{
+  width: 70%;
 }

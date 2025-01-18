@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from '../header-component/header-component.component';
 
 @Component({
   selector: 'learn-page',
