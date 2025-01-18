@@ -5,23 +5,22 @@ body {
 
 
 /*Estilos del menú*/
-/* Estilo del menú */
 .navbar-dark .navbar-brand {
-  color: #bb86fc; /* Color de acento */
+  color: #bb86fc;
 }
 
 .navbar-nav .nav-link {
-  color: #e0e0e0; /* Color de los enlaces */
+  color: #e0e0e0;
   font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #03dac5; /* Color al pasar el mouse */
+  color: #03dac5;
 }
 
 .navbar-toggler-icon {
-  background-color: #bb86fc; /* Cambia el color del ícono del menú */
+  background-color: #bb86fc;
 }
 
 .navbar-nav {
@@ -29,18 +28,18 @@ body {
 }
 
 .bg-dark {
-  background-color: #121212 !important; /* Asegura que el fondo sea oscuro */
+  background-color: #121212 !important;
 }
 
 
 /*Learn-component*/
 
 .text-accent {
-  color: #bb86fc; /* Color de acento */
+  color: #bb86fc;
 }
 
 .text-secondary {
-  color: #03dac5; /* Color secundario */
+  color: #03dac5;
 }
 
 .lead {
@@ -106,12 +105,12 @@ body {
 
 /* Estilo del footer */
 footer {
-  background-color: #121212; /* Fondo oscuro para el footer */
-  color: #e0e0e0; /* Color de texto claro */
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 footer h5 {
-  color: #bb86fc; /* Color de los encabezados (acento) */
+  color: #bb86fc;
 }
 
 footer p {
@@ -119,21 +118,21 @@ footer p {
 }
 
 footer .list-unstyled li a {
-  color: #e0e0e0; /* Color de los enlaces */
+  color: #e0e0e0;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 footer .list-unstyled li a:hover {
-  color: #03dac5; /* Color al pasar el mouse */
+  color: #03dac5;
 }
 
 footer i {
-  color: #bb86fc; /* Color de los íconos */
+  color: #bb86fc;
 }
 
 footer i:hover {
-  color: #03dac5; /* Color de los íconos al pasar el mouse */
+  color: #03dac5;
 }
 
 footer .text-center p {
@@ -143,19 +142,19 @@ footer .text-center p {
 
 /* Estilos para la sección "Proceso de la Sesión de Reiki" */
 .proceso-reiki {
-  color: #e0e0e0;             /* Texto claro */
+  color: #e0e0e0;
   padding: 5rem 0;
 }
 
 .proceso-reiki h3 {
   font-size: 2rem;
   font-weight: 700;
-  color: #bb86fc; /* Color morado para el título */
+  color: #bb86fc;
 }
 
 .proceso-reiki p {
   font-size: 1.1rem;
-  color: #e0e0e0;  /* Texto claro */
+  color: #e0e0e0;
 }
 
 .proceso-reiki .row {
@@ -174,15 +173,15 @@ footer .text-center p {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #bb86fc; /* Morado */
+  color: #bb86fc;
 }
 
 .proceso-reiki .text-secondary {
-  color: #e0e0e0;  /* Texto claro */
+  color: #e0e0e0;
 }
 
 .proceso-reiki .row .col-sm p {
-  color: #cfcfcf; /* Texto claro para la descripción */
+  color: #cfcfcf;
 }
 
 .proceso-reiki .col-sm {
@@ -191,8 +190,8 @@ footer .text-center p {
 
 /* Resaltar el fondo con un suave morado */
 .proceso-reiki .col-sm:hover {
-  background-color: #bb86fc;  /* Color morado suave al hacer hover */
-  color: black;                /* Texto blanco al hacer hover */
+  background-color: #bb86fc;
+  color: black;
 }
 
 .me-img:hover{
