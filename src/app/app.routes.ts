@@ -7,13 +7,11 @@ import { QueEsElReikiComponent } from './pages/que-es-el-reiki/que-es-el-reiki.c
 import { PrincipiosReikiComponent } from './pages/principios-reiki/principios-reiki.component';
 import { TarifasComponent } from './pages/tarifas/tarifas.component';
 import { BeneficiosReikiComponent } from './pages/beneficios-reiki/beneficios-reiki.component';
-import { HelperViewComponent } from './pages/helper-view/helper-view.component';
 
 export const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "header-component", component: HeaderComponent},
   {path: "que-es-reiki", component: QueEsElReikiComponent},
-  {path: 'helper-view', component: HelperViewComponent},
   {path: "beneficios-reiki", component: BeneficiosReikiComponent},
   {path: "principios-reiki", component: PrincipiosReikiComponent},
   {path: "tarifas", component: TarifasComponent},
