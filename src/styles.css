@@ -76,7 +76,7 @@ body {
 .quote blockquote {
   font-size: 1.5rem;
   font-style: italic;
-  color: #03dac5;
+  color: #f4d7ff     !important;
   margin: 0;
 }
 
@@ -147,64 +147,71 @@ footer .text-center p {
 }
 
 /* Estilos para la sección "Proceso de la Sesión de Reiki" */
-.proceso-reiki {
-  color: #e0e0e0;
-  padding: 5rem 0;
-}
-
-.proceso-reiki h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #bb86fc;
-}
-
-.proceso-reiki p {
-  font-size: 1.1rem;
-  color: #e0e0e0;
-}
-
-.proceso-reiki .row {
-  margin-top: 2rem;
-}
-
-.proceso-reiki .col-sm-4 {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+.proceso-reiki .proceso-step {
+  background-color: #1e1e1e;
   border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.proceso-reiki .proceso-step:hover {
+  background-color: #c8aaee;
+  transform: scale(1.05);
+}
+
+.mantra-img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para el acordeón en diseño oscuro */
+.accordion-item {
+  background-color: #121212;
+  border: none;
+}
+
+.accordion-button {
   background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: none;
+  padding: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.proceso-reiki h5 {
-  margin: 1.5rem;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 600;
+.accordion-button:hover {
+  background-color: #03dac5;
+  color: #121212;
 }
 
-.proceso-reiki .text-secondary {
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-collapse {
+  background-color: #1e1e1e;
   color: #e0e0e0;
 }
 
-.proceso-reiki .row .col-sm p {
+.accordion-body {
   color: #cfcfcf;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.proceso-reiki .col-sm {
-  background-color: #1e1e1e;
-}
-
-/* Resaltar el fondo con un suave morado */
-.proceso-reiki .col-sm:hover {
-  background-color: #c8aaee;
-  color: black;
+/* Hover para los elementos del acordeón */
+.accordion-button:not(.collapsed) {
+  background-color: #3700b3;
+  color: #e0e0e0;
 }
 
 
 .me-img:hover{
   width: 70%;
 }
-.gato-img {
-  width: 50px;
-  padding: 3px;
+
+.mantra {
+  max-width: 200px;
 }
 
+.text-secondary{
+  font-size: 18px;
+}

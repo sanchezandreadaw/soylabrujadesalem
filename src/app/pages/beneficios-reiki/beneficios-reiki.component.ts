@@ -6,7 +6,7 @@ import { HeaderComponent } from "../header-component/header-component.component"
 @Component({
   selector: 'app-beneficios-reiki',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, HeaderComponent],
   templateUrl: './beneficios-reiki.component.html',
   styleUrl: './beneficios-reiki.component.css'
 })
