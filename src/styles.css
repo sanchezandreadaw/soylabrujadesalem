@@ -12,7 +12,7 @@ body {
 
 .navbar-nav .nav-link {
   color: #e0e0e0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   transition: color 0.3s ease;
 }
 
@@ -325,4 +325,8 @@ section {
 .col-pasos:hover{
   transform: translateY(-10px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.accordion-bg{
+  background-color: #2c2c2e;
 }
