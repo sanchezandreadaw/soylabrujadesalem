@@ -154,7 +154,7 @@ footer .text-center p {
 }
 
 .proceso-reiki .proceso-step:hover {
-  background-color: #c8aaee;
+  background-color: #decef2;
   transform: scale(1.05);
 }
 
@@ -214,4 +214,30 @@ footer .text-center p {
 
 .text-secondary{
   font-size: 18px;
+}
+
+.me-dos{
+  width: 400px;
+  border-radius: 75px;
+}
+
+.reiki-tip:hover{
+  background-color:#decef2;
+}
+
+.yoga {
+  width: 600px;
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.yoga:hover {
+  opacity: 0.9;
+  transform: translateY(-5px);
+}
+
+
+.maestra {
+  font-style: italic ;
 }
