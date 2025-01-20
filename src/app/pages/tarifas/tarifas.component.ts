@@ -5,7 +5,7 @@ import { HeaderComponent } from '../header-component/header-component.component'
 @Component({
   selector: 'app-tarifas',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, HeaderComponent],
   templateUrl: './tarifas.component.html',
   styleUrl: './tarifas.component.css'
 })

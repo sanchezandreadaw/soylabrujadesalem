@@ -258,6 +258,10 @@ footer .text-center p {
   border-radius: 2px;
 }
 
+.tarifa-precio{
+  color: #03dac5;
+}
+
 .reiki-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
