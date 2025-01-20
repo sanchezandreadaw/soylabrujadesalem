@@ -249,6 +249,9 @@ footer .text-center p {
   font-size: 2.5rem;
   color: #cba9f5;
 }
+a{
+  text-decoration: none;
+}
 
 .separator {
   height: 4px;
@@ -265,7 +268,7 @@ footer .text-center p {
 .reiki-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .reiki-item {
