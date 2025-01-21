@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import moment from 'moment';
-import 'moment/locale/es';
 
 @Component({
   selector: 'footer-page',
@@ -17,7 +15,8 @@ export class FooterComponent {
   constructor() {}
 
   getAnyoActual(){
-    this.anyoActual = moment().year();
+    const currentDate = new Date();
+    this.anyoActual = currentDate.getFullYear();
     return this.anyoActual;
   }
 
