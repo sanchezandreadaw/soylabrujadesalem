@@ -1,27 +1,50 @@
-# Soylabrujadesalem
+🌿 Página Web Profesional – SoyLaBrujaDeSalem
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+Descripción general
 
-## Development server
+Este proyecto consiste en el desarrollo de una página web corporativa para un negocio de Reiki, creada con HTML, CSS y Bootstrap.
+El objetivo es ofrecer una presencia online clara, profesional y accesible, transmitiendo confianza y serenidad, valores clave en terapias energéticas y bienestar personal.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La web está diseñada para presentar los servicios, explicar qué es el Reiki y facilitar el contacto con potenciales clientes.
 
-## Code scaffolding
+Funcionalidades principales:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Página informativa de servicios de Reiki
 
-## Build
+- Sección explicativa sobre la terapia y sus beneficios
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Diseño responsive adaptable a móviles, tablets y escritorio
 
-## Running unit tests
+- Navegación clara e intuitiva
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Sección de contacto para clientes potenciales
 
-## Running end-to-end tests
+- Diseño y experiencia de usuario
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Estética limpia y armoniosa
 
-## Further help
+- Uso de colores suaves orientados al bienestar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Tipografía legible y jerarquía visual clara
+
+- Diseño responsive mediante Bootstrap
+
+- Interfaz pensada para usuarios no técnicos
+
+Estructura del proyecto:
+
+- Maquetación con HTML5 semántico
+
+- Estilos personalizados con CSS
+
+- Separación clara entre estructura y estilos
+
+Tecnologías utilizadas:
+
+- HTML5
+
+- CSS3
+
+- Bootstrap
+
+- Diseño responsive
